@@ -1,0 +1,104 @@
+.wallet-address {
+  margin-top: 32px;
+}
+
+.wallet-address h6 {
+  margin-bottom: 16px;
+}
+
+.wallet-address .qr-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .wallet-address .qr-wrapper {
+    flex-flow: column;
+  }
+}
+
+.wallet-address .qr-wrapper img {
+  margin-right: 36px;
+}
+
+@media screen and (max-width: 425px) {
+  .wallet-address .qr-wrapper img {
+    margin-right: 0;
+  }
+}
+
+.wallet-address .qr-wrapper .address-wrapper {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .wallet-address .qr-wrapper .address-wrapper {
+    margin-top: 16px;
+  }
+}
+
+.wallet-address .qr-wrapper .address-wrapper .address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #000;
+  width: 284px;
+  word-break: break-all;
+}
+
+.wallet-address .qr-wrapper .address-wrapper .copy {
+  margin-left: 13px;
+}
+
+.wallet-address .qr-wrapper .address-wrapper .link {
+  margin-left: 10px;
+}
+
+.network {
+  margin-top: 34px;
+}
+
+@media screen and (max-width: 768px) {
+  .network {
+    margin-bottom: 34px;
+  }  
+}
+
+.network h6 {
+  margin-bottom: 4px;
+}
+
+.network .network-id-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.network .network-id-wrapper .network-id {
+  margin-bottom: 0;
+}
+
+.network .network-id-wrapper svg {
+  margin-left: 12px;
+}
+
+.checkout-payment-button-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

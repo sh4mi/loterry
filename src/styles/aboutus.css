@@ -1,0 +1,73 @@
+.about-caption h1 {
+  color: #2A7BB6;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+}
+
+@media screen and (max-width: 768px) {
+  .about-caption h1 {
+    color: #2A7BB6;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+  }
+}
+
+.about-content {
+  width: 100%;
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  color: #000;
+}
+
+.about-content h3 {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  color: #2A7BB6;
+}
+
+@media screen and (max-width: 768px) {
+  .about-content h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #2A7BB6;
+  }
+}
+
+.about-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000;
+  margin:15px 0;
+}
+
+.about-text span {
+  color: #2A7BB6;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .about-text {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    color: #000;
+    margin:15px 0;
+  }
+}
+
+.button-try-myluck{
+  height: 50px;
+  width: 250px;
+  border-radius: 8px;
+  background: #2A7BB6;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}

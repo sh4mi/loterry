@@ -1,0 +1,192 @@
+.counter-wrapper {
+  display: flex;
+  background: #2AB9E7;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  color: #FFF;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.counter-wrapper .counter-item-wrapper {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+}
+
+.counter-wrapper .counter-item-wrapper {
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+@media screen and (max-width: 425px) {
+  .counter-wrapper .counter-item-wrapper {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+}
+
+.counter-wrapper .counter-item-wrapper .counter-item {
+  background-color: #FFF;
+  border-radius: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #554848;
+  text-align: center;
+  width: 65px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+@media screen and (max-width: 425px) {
+  .counter-wrapper .counter-item-wrapper .counter-item {
+    border-radius: 8px;
+    width: 42px;
+    height: 42px;
+    margin-bottom: 4px;
+  }
+}
+
+.counter-wrapper .counter-item-wrapper:last-child {
+  margin-right: 0;
+}
+
+.ticket-count-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .ticket-count-wrapper {
+    flex-flow: column;
+  }
+}
+
+.ticket-count-wrapper h3 {
+  margin-right: 32px;
+}
+
+.ticket-count-wrapper .ticket-count {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: #596171;
+}
+
+.checkout {
+  display: flex;
+  border-radius: 2px solid;
+  border: 3px solid #2AB9E7;
+  border-radius: 16px;
+  padding: 12px;
+  margin-top: 28px;
+}
+
+@media screen and (max-width: 768px) {
+  .checkout {
+    flex-flow: column;
+    align-items: center;
+  }
+}
+
+.checkout .checkout-content {
+  width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+  .checkout .checkout-content {
+    width: 100%;
+  }
+}
+
+.checkout .checkout-content .ticket-price-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkout .checkout-content .ticket-price-wrapper p {
+  font-size: 20px;
+  color: rgb(89, 97, 113);
+}
+
+.checkout .checkout-content .ticket-price-wrapper span {
+  font-size: 20px;
+  color: #32333a;
+  font-weight: 600;
+}
+
+.checkout .checkout-content .total-price-wrapper  {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkout .checkout-content .total-price-wrapper p {
+  font-size: 20px;
+  color: rgb(89, 97, 113);
+}
+
+.checkout .checkout-content .total-price-wrapper span {
+  font-size: 24px;
+  font-weight: 600;
+  color: #e76133;
+}
+
+.checkout .button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+@media screen and (max-width: 425px) {
+  .checkout .button-container {
+    width: 100%;
+  }
+}
+
+.checkout .button-container .payment-method {
+  margin-right: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .checkout .button-container .payment-method {
+    margin-right: 50px;
+  }  
+}
+
+.checkout .buy-button {
+  margin-top: 0;
+  background: #2A7BB6;
+  border-radius: 8px;
+  width: 265px;
+  height: 50px;
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #FFF;
+}
+
+@media screen and (max-width: 768px) {
+  .checkout .buy-button { 
+    width: 160px;
+  }
+}
+

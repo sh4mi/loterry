@@ -1,0 +1,208 @@
+.sign-wrapper {
+  min-height: 100vh;
+  padding-top: 150px;
+  background-image: url('../bg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.sign-wrapper .signin {
+  position: relative;
+  padding: 46px 63px 51px;
+  background: rgba(255, 255, 255, 0.77);
+  box-shadow: 0px 16px 29px rgb(42 123 182 / 4%);
+  /* backdrop-filter: blur(7px); */
+  border-radius: 42px;
+  height: fit-content;
+  width: fit-content;
+}
+
+@media screen and (max-width: 425px) {
+  .sign-wrapper .signin {
+    padding: 26px 20px 31px;
+  }
+}
+
+.sign-wrapper .signin svg {
+  position: absolute;
+  top: 51px;
+  right: 61px;
+}
+
+.sign-wrapper .signin h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  color: #2A7BB6;
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 425px) {
+  .sign-wrapper .signin h3 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+
+.sign-wrapper .signin p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #000;
+}
+
+.sign-wrapper .signin .email-wrapper {
+  margin-top: 37px;
+}
+
+.sign-wrapper .signin .label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.sign-wrapper .signin input {
+  border: 1px solid #CFCFCF;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #736868;
+  padding: 15px 24px;
+  width: 100%;
+}
+
+@media screen and (max-width: 425px) {
+  .sign-wrapper .signin input {
+    width: unset;
+  }
+}
+
+.sign-wrapper .signin input:focus-visible {
+  outline: none;
+}
+
+.sign-wrapper .signin .password-wrapper {
+  margin-top: 26px;
+}
+
+.sign-wrapper .signin .recapture {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 11px;
+}
+
+@media screen and (max-width: 425px) {
+  .sign-wrapper .signin .recapture {
+    display: block;
+  }
+}
+
+.sign-wrapper .signin .recapture a {
+  margin-left: 11px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000;
+  text-decoration-line: none;
+}
+
+@media screen and (max-width: 425px) {
+  .sign-wrapper .signin .recapture a {
+    line-height: 34px;
+  }
+}
+
+.sign-wrapper .signin .button-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.sign-wrapper .signin .button-container .button {
+  margin-top: 0;
+  margin-bottom: 26px;
+}
+
+.sign-wrapper .signin .signup-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.sign-wrapper .signin .signup-link a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.sign-wrapper .signin .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign-wrapper .signin .email-row {
+  margin-top: 26px;
+}
+
+.sign-wrapper .signin .row input {
+  width: 350px;
+}
+
+.sign-wrapper .signin .name-wrapper {
+  width: fit-content;
+}
+
+.sign-wrapper .signin .signup-email-wrapper {
+  margin-top: 0;
+  width: fit-content;
+}
+
+.sign-wrapper .signin .pwd-wrapper {
+  width: fit-content;
+}
+
+.sign-wrapper .signin .signup-button-container {
+  margin-top: 28px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sign-wrapper .signin .signup-button-container .button {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .sign-wrapper .signin .signup-button-container .button {
+    width: 250px !important;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  .sign-wrapper .signin .button-container .button {
+    width: 250px !important;
+  }
+}
+
+.sign-wrapper .signin .signup-link {
+  margin-top: 37px;
+  text-align: center;
+  margin-bottom: 0;
+}

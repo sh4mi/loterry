@@ -1,0 +1,95 @@
+.ticket {
+  position: relative;
+  padding: 16px;
+  border: 1px solid rgb(206, 206, 206);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.ticket:hover {
+  /* transform: scale(1.01); */
+  box-shadow: 0 0 2px 2px rgb(206, 206, 206);
+}
+
+.ticket .ticket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.ticket .check-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.ticket .ticket-header .quick-choose {
+  background-color: #808080;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 4px 10px;
+}
+
+.ticket .ticket-header .quick-choose:focus-visible {
+  outline: none;
+  border-radius: 6px;
+}
+
+.p {
+  font-size: 20px;
+  color: rgb(89, 97, 113);
+  margin-bottom: 2px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.panel-wrapper {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.panel-wrapper span {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  font-size: 140px;
+  color: #666363;
+  z-index: 100;
+  pointer-events: none;
+}
+
+.button-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 45px;
+  width: 45px;
+  margin: 8px;
+  text-align: center;
+  border-radius: 50%;
+  color:#554848;
+  font-size: 24px;
+  background-color: gainsboro;
+}
+
+@media screen and (max-width: 768px) {
+  .button-number {
+    width: 40px;
+    height: 40px;
+    margin: 8px;
+  }
+}
+  
+.button-active {
+  color: #FFFFFF;
+  background-color: #2AB9E7;
+}

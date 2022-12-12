@@ -1,0 +1,85 @@
+body{
+  font-family: 'Montserrat';
+}
+
+.main-title {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  color: #2A7BB6;
+  margin-bottom: 11px;
+}
+
+.main-title-description {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 61px;
+}
+
+@media screen and (max-width: 768px) {
+  .main-title-description {
+    margin-bottom: 16px;
+  }
+}
+
+.main-title-description-payment {
+  margin-bottom: 61px;
+}
+
+.main-title-description p {
+  width: 34%;
+  color: #000;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .main-title-description p {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .main-title-description p {
+    width: 80%;
+  }
+}
+
+.radio-container {
+  display: flex;
+}
+
+.radio-wrapper {
+  display: flex;
+  align-items: center;
+  margin-right: 27px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #000;
+}
+
+.radio-wrapper img {
+  margin-left: 4px;
+}
+
+.back-btn {
+  border: none;
+}
+
+@media screen and (max-width: 425px) {
+  .back-btn {
+    margin-bottom: 16px;
+  }
+}
+
+.back-btn:focus-visible {
+  outline: none;
+}
